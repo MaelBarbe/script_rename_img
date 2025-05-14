@@ -17,7 +17,7 @@ def rename_img_safe(source_dossier, img_rename, prefixe="image_", extension_vali
         shutil.copy2(source_chemin, destination_chemin)  # Copie avec métadonnées
         print(f"Copié et renommé : {nom_fichier} -> {nouveau_nom}")
 
-# Changer le path "source" et "destination" avec les noms de dossier voulu
+# Changer le path "source" (où ce trouve les images à rename) et "destination" (où l'on veut placer les images une fois rename) avec les noms de dossier voulu
 source = r"D:/img/img-opti-photoshop/opti-done"
 destination = r"D:/img/img-opti-photoshop/img-rename"
 rename_img_safe(source, destination, prefixe="img_")
