@@ -4,5 +4,5 @@ Script Python pour rename plusieurs images dans un dossier et les add dans un au
 Comment s'en servir :
   - Télécharger le script
   - Modifier les lignes 21 (source) et 22 (destination) pour qu'elles correspondent à nos dossiers
-  - Ouvrir un bash dans le dossier à l'endroit où ce trouve le script
+  - Ouvrir un bash à l'endroit où ce trouve le script
   - Éxécuter la commande "py rename_img.py"
