@@ -8,9 +8,9 @@ def rename_img_safe(source_dossier, img_rename, prefixe="image_", extension_vali
     fichiers = [f for f in os.listdir(source_dossier) if f.lower().endswith(extension_valide)]
     fichiers.sort()  # Tri pour un ordre stable
 
-    for instance, nom_fichier in enumerate(fichiers, start=1):
+    for i, nom_fichier in enumerate(fichiers, start=1):
         extension = os.path.splitext(nom_fichier)[1]
-        nouveau_nom = f"{prefixe}{instance}{extension}"
+        nouveau_nom = f"{prefixe}{i}{extension}"
         source_chemin = os.path.join(source_dossier, nom_fichier)
         destination_chemin = os.path.join(img_rename, nouveau_nom)
 
