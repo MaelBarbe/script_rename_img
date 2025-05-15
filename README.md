@@ -5,4 +5,4 @@ Comment s'en servir :
   - Télécharger le script (code > download ZIP)
   - Modifier les lignes 21 (source) et 22 (destination) pour qu'elles correspondent à nos dossiers
   - Ouvrir un bash à l'endroit où ce trouve le script
-  - Éxécuter la commande "py rename_img.py"
+  - Exécuter la commande "py rename_img.py"
