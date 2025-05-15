@@ -1,8 +1,35 @@
-Script Python pour copié et rename plusieurs images dans un dossier et les ajouter dans un autre dossier sans delete les images de base
+---
 
+# Script Python pour copier et renommer plusieurs images
 
-Comment s'en servir :
-  - Télécharger le script (code > download ZIP)
-  - Modifier les lignes 21 (source) et 22 (destination) pour qu'elles correspondent à nos dossiers
-  - Ouvrir un bash à l'endroit où ce trouve le script
-  - Exécuter la commande "py rename_img.py"
+Ce script permet de **copier** et **renommer** plusieurs images d'un dossier source vers un dossier de destination **sans supprimer** les images originales.
+
+## 📌 Fonctionnalités
+
+* Copie les images d'un dossier à un autre
+* Renomme automatiquement les images lors de la copie
+* Préserve les fichiers d'origine
+
+## 🔧 Utilisation
+
+1. **Télécharger le script** :
+   Cliquez sur le bouton vert `Code` > `Download ZIP` et extrayez les fichiers.
+
+2. **Modifier les chemins** :
+   Ouvrez le fichier `rename_img.py` et modifiez les lignes suivantes :
+
+   * Ligne **21** : **source**
+   * Ligne **22** : **destination**
+
+3. **Exécuter le script** :
+
+   * Ouvrez un terminal (Bash) à l'emplacement du script
+   * Lancez la commande suivante :
+
+     ```
+     py rename_img.py
+     ```
+
+> 💡 Assurez-vous que Python est installé et accessible via la commande `py --version`.
+
+---
