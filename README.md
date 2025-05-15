@@ -19,7 +19,7 @@ Ce script permet de **copier** et **renommer** plusieurs images d'un dossier sou
    * Ligne **21** : **source**
    * Ligne **22** : **destination**
      
-   ⚠️ Utilise des barres obliques / ou des doubles antislashs \\ sous Windows.
+   ⚠️ Utilise des barres obliques / ou des doubles antislashs \\\ sous Windows.
 
 3. **Exécuter le script** :
 
