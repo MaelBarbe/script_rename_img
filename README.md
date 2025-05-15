@@ -1,5 +1,3 @@
----
-
 # Script Python pour copier et renommer plusieurs images
 
 Ce script permet de **copier** et **renommer** plusieurs images d'un dossier source vers un dossier de destination **sans supprimer** les images originales.
@@ -31,5 +29,3 @@ Ce script permet de **copier** et **renommer** plusieurs images d'un dossier sou
      ```
 
 > 💡 Assurez-vous que Python est installé et accessible via la commande `py --version`.
-
----
